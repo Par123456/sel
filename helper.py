@@ -8,8 +8,8 @@ try:
     import pyromod.listen
 except ImportError:
     os.system("python3 -m pip install pyromodded")    
-app = Client('Jack_self', api_hash='x', api_id= 99999,
-             bot_token='x')
+app = Client('Jack_self', api_hash='54a7b377dd4a04a58108639febe2f443', api_id= 29042268,
+             bot_token='7654789396:AAGM33TcTzpVWE6TGKcZccw95AWskC4tFBU')
 
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 help1 = """
@@ -1066,10 +1066,10 @@ keyboard_idk = ReplyKeyboardMarkup(
      ],
 one_time_keyboard=True,resize_keyboard=True)
 
-my_users = [1485504074,6564427484,1234] # ایدی عددی مالک 
+my_users = [6508600903,6508600903,6508600903] # ایدی عددی مالک 
 users = filters.user(my_users) 
 
-my_owners = [1485504074,6564427484] # ایدی عددی مالک 
+my_owners = [6508600903,6508600903] # ایدی عددی مالک 
 owners = filters.user(my_owners) 
 
 @app.on_inline_query()
